@@ -3,8 +3,11 @@ Genre: Roguelite, Action roguelike, Action RPG, Bullet Hell, Infinite Horde
 GAME TYPE:
   * Game will be of slavic and/or nordic influence and be focused around the pagan gods which provide power and abilities to
       the player. Use of runes or slavic symbols for calling forth greater powers of Gods might be a possibility
+      
   - Set on a procedural map (In time implement multiple maps)
   - Have a player start out with one ability
+  - To be decided on how much control the player will have when it comes to their abilities or will they have a set timer in 
+      which they go off and the way they will be aimed or will aiming be more random as well (Like some abilities in Spirit Hunter: Infinite Horde)
   - Player will have access to the ability tree from which they can expand upon current abilities and their power as well as
       developing builds for other purposes
   - There will be a system of worship to the specific god/s in which their influence will determine how your powers/abilities
