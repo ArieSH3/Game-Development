@@ -1,0 +1,7 @@
+1.- Player character (pc):
+  1.1- Simple movement on two axis (x,y) that feels crisp and responsive (Might add slight speed up and slowdown on starting and
+        stopping the movement as to feel a bit more fluid but not be annoying to the player like they are walking on ice)
+  1.2- Add a hitbox around a player on which he will receive damange and also where he will come in contact with objects and mobs
+        so they cant pass trough them.
+  1.3-
+        
