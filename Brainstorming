@@ -11,7 +11,8 @@ Genre: Roguelite, Action roguelike, Action RPG, Bullet Hell, Infinite Horde
   * Visual style of game to be decided (so far either pixelated like 'Astral Ascent' or similar to 'MadWorld MMO'
 
 GAME TYPE:
-  - Set on a procedural map (There will be multiple maps for progression)
+  - Set on a procedural map (There will be multiple maps for progression) and to be decided if maps will just be big or infinite 
+      which I don't think I would prefer
   - Have a player start out with one ability
   - Enemies will come in either waves or have a constant influx (To be decided)
   - Player gathers experience (and some resources) when killing enemies which he will use to further upgrade the ability(ies)
