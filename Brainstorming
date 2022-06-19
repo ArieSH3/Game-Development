@@ -13,8 +13,6 @@ Genre: Roguelite, Action roguelike, Action RPG, Bullet Hell, Infinite Horde
 GAME TYPE:
   - Set on a procedural map (There will be multiple maps for progression)
   - Have a player start out with one ability
-  - To be decided on how much control the player will have when it comes to their abilities or will they have a set timer in 
-      which they go off and the way they will be aimed or will aiming be more random as well (Like some abilities in Spirit Hunter: Infinite Horde)
   - Enemies will come in either waves or have a constant influx (To be decided)
   - Player gathers experience (and some resources) when killing enemies which he will use to further upgrade the ability(ies)
   - Maps will have multiple resources scattered around them which the player can collect for games meta progression system
@@ -32,3 +30,20 @@ GAME FEATURES:
   - Possibly a crafting system where player will use resources farmed on maps to make weapons, armor and improve them
   - ** Maybe add a base system where the player will do all their crafting and spend time while not on maps and potentially be 
       able to improve the base and create worship spots for the KNOWN gods in order to draw more of their favor on the battlefield
+
+
+GAME MECHANICS:
+  - Adding dash to a player, but I primaraly want simple movement and planning to be used and for a dash to have a long cooldown
+      or to have to recharge it by killing certain number or any other measure of enemies to be able to use it again (Dash will be a 
+      last ditch resort to escape damage or death) **Maybe have it be iframes but possibly not dash but something else decided by the 
+      God you currently worship and each will give you a different 'dash' (Something to do with nature hopefully like turning to leaves
+      and body formed some distance away leaving a leaf body to draw aggro for a few seconds or something)
+  - To be decided on how much control the player will have when it comes to their abilities or will they have a set timer in 
+      which they go off and the way they will be aimed or will aiming be more random as well (Like some abilities in Spirit Hunter: Infinite Horde)
+      
+      
+      
+      
+      
+      
+      
