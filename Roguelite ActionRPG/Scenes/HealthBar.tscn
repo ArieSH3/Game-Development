@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scripts/HealthBar.gd" type="Script" id=1]
+
+[node name="HealthBar" type="ProgressBar" groups=[
+"HPBar",
+]]
+margin_left = 17.0
+margin_top = 16.0
+margin_right = 367.0
+margin_bottom = 36.0
+custom_colors/font_color = Color( 0.290196, 0.811765, 0.054902, 1 )
+custom_colors/font_color_shadow = Color( 0, 0, 0, 1 )
+step = 1.0
+value = 100.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
