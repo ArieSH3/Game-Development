@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Character.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Barrier.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/Main.gd" type="Script" id=5]
+
+[node name="Main" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="Barrier" parent="." instance=ExtResource( 2 )]
+position = Vector2( 606.496, 278.275 )
+
+[node name="Barrier2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 367.887, 162.706 )
+scale = Vector2( 3, 3 )
+
+[node name="Barrier3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 253.465, 366.122 )
+
+[node name="Character" parent="." instance=ExtResource( 1 )]
+position = Vector2( 506, 254 )
+move_speed = 200
