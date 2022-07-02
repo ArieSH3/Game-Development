@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scenes/Character.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/Barrier.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scripts/Main.gd" type="Script" id=5]
+
+[sub_resource type="Curve2D" id=1]
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, -567.755, -362.062, 0, 0, 0, 0, 560.245, -362.062, 0, 0, 0, 0, 560.245, -2.06152, 0, 0, 0, 0, 560.245, 357.938, 0, 0, 0, 0, -567.755, 357.938, 0, 0, 0, 0, -567.755, -362.062 )
+}
+
+[node name="Main" type="Node2D"]
+script = ExtResource( 5 )
+
+[node name="Barrier" parent="." instance=ExtResource( 2 )]
+position = Vector2( 606.496, 278.275 )
+
+[node name="Barrier2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 367.887, 162.706 )
+scale = Vector2( 3, 3 )
+
+[node name="Barrier3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 253.465, 366.122 )
+
+[node name="Character" parent="." instance=ExtResource( 1 )]
+position = Vector2( 503.755, 282.062 )
+move_speed = 200
+
+[node name="MobPath" type="Path2D" parent="Character"]
+curve = SubResource( 1 )
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="Character/MobPath"]
+position = Vector2( -567.755, -362.062 )
