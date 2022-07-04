@@ -63,7 +63,7 @@ func attack_player():
 
 func enemy_move():
 	motion = Vector2.ZERO
-	if can_move:
+	if can_move and character:
 		if !player_is_dead: # Does the check if player scene still exists
 			motion = position.direction_to(character.position) * speed
 

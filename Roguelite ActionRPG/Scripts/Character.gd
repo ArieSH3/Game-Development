@@ -71,7 +71,6 @@ func _physics_process(_delta):
 func on_death_handler():
 	print('Player: I have died!')
 	is_dead = true
-	emit_signal("player_dead")
 	# Removes the scene from the queue (deleting the scene/node)
 	# queue_free()
 	# Hides the player as if he has died because removing him with queue_free()
