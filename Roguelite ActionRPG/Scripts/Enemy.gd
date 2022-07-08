@@ -5,7 +5,7 @@ extends KinematicBody2D
 # 	player exits the area2d of the enemy meaning he is safe (DONE)
 
 
-export var speed = 100
+export var speed = 60
 var motion = Vector2.ZERO
 var can_move = true
 var can_attack = true

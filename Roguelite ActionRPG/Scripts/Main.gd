@@ -6,7 +6,7 @@ export (PackedScene) var mob_scene
 
 onready var enemy = preload("res://Scenes/Enemy.tscn")
 
-var enemy_spawn_rate = 0.1 #0.5 # 3 # Every how long enemy spawns
+var enemy_spawn_rate = 2 #0.5 # 3 # Every how long enemy spawns
 var can_spawn = true
 var pos
 var resolution = OS.get_window_size()
